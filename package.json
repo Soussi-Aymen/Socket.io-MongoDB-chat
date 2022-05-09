@@ -1,0 +1,16 @@
+{
+  "name": "mongo_socket_app",
+  "version": "1.0.0",
+  "description": "simple chat app using mongodb and socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aymen Soussi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "socket.io": "^2.0.3"
+  }
+}
