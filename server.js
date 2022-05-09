@@ -7,7 +7,7 @@ server.listen(process.env.PORT||4000);
 console.log('server runing');
 
 app.get('/',function(req,res){
-res.sendFile(__dirname+'/index.html');
+    res.sendFile(__dirname+'/index.html');
 });
 
 // Connect to mongo
